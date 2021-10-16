@@ -1,0 +1,29 @@
+#calc-screen:focus,
+button:focus{
+    outline: none !important;
+    outline: 0 !important;
+    box-shadow: none;
+}
+button{
+    padding: .8em;
+    border: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0.2em;
+    border-radius: 5px;
+    &:hover{
+        background-color: darkseagreen !important;
+    }
+}
+#calc-screen{
+    height: 3em;
+    font-size: 2em;
+    text-align: right;
+    margin: 0em 0.1em 0.1em 0em;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.calc-con{
+    border-radius: 10px;
+    box-shadow: 0 0 0 1rem rgba(13, 110, 253, 0.25);
+}
